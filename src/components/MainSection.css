@@ -1,0 +1,181 @@
+.main-section {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .topic {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    display: inline-flex;
+    align-items: center;
+    gap: 224px;
+    margin: 98px 40px 0px 48px;
+  }
+  
+  .right-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .left-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    flex: 1;
+  }
+
+  .left-section h2{
+    width: 525px;
+    color: #000;
+    font-family: Helvetica;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+
+  .left-section p{
+    color: #000;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 556px;
+  }
+  
+  .right-section img {
+    width: 580px;
+    height: 367px;
+    display: flex;
+    border-radius: 161px;
+  }
+
+  .Ourproducts{
+    color: #000;
+    width: 326px;
+    font-family: Helvetica;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-left: 40px;
+  }
+
+  .beer-gallery [class*="beer-link-"] {
+    display: flex;
+    padding: 40px;
+    align-items: center;
+    gap: 24px;
+    border-radius: 13px;
+    border: 1px solid #919191;
+    background: #FFF;
+    box-shadow: 0px 12px 26px 0px rgba(230, 230, 230, 0.10),
+                0px 48px 48px 0px rgba(230, 230, 230, 0.09),
+                0px 107px 64px 0px rgba(230, 230, 230, 0.05),
+                0px 191px 76px 0px rgba(230, 230, 230, 0.01),
+                0px 299px 84px 0px rgba(230, 230, 230, 0.00);
+  }
+
+  .beer-gallery [class*="beer-link-"] img{
+    width: 150px;
+    height: 374px;
+  }
+
+  .beer-gallery{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 28px;
+    flex-wrap: wrap;
+    padding-bottom: 98px;
+  }
+
+  @media (max-width: 912px) {
+.main-section{
+  align-items: center;
+}
+
+    .topic {
+      display: flex;
+      width: 327px;
+      flex-direction: column-reverse;
+      align-items: center;
+      gap: 24px;
+      margin:0px;
+    }
+
+    .right-section{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .imgright {
+      max-width: 269px;
+      max-height: 134px;
+      display: flex;
+      border-radius: 74px;
+    }
+
+    .left-section h2{
+      width: 307px;
+      color: #363636;
+      font-family: Helvetica;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-transform: uppercase;
+    }
+  
+    .left-section p{
+      width: 307px;
+      color: #363636;
+      font-family: Helvetica;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+
+    .Ourproducts {
+      width: 326px;
+      color: #363636;
+      font-family: Helvetica;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-transform: uppercase;
+    }
+  
+    .beer-gallery [class*="beer-link-"] {
+      display: flex;
+      width: 327px;
+      padding: 12px;
+      align-items: center;
+      gap: 24px;
+      border-radius: 13px;
+      border: 1px solid #919191;
+    }
+  
+    .beer-gallery [class*="beer-link-"] img{
+      width: 85px;
+      height: 211px;
+      flex-shrink: 0;
+    }
+
+    .beer-card{
+      display: flex;
+      width: 286px;
+      padding: 24px;
+      gap: 24px;
+      height: 368px;
+    }
+
+  }
